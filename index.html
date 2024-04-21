@@ -4,50 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Setecentos e trinta dias.</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @font-face {
-            font-family: 'Love';
-            src: url('fontes/love story ttf.ttf') format('truetype');
-            font-style: normal;
-            font-weight: normal;
-        }
-        @font-face {
-            font-family: 'Valentines';
-            src: url('fontes/I Found My Valentine TTF.ttf') format('truetype');
-            font-style: normal;
-            font-weight: normal;
-        }
-        a {
-            color: rgba(125, 125, 252, 0.671);
-            text-decoration: none;
-        }
-        a:visited {
-            color: rgba(27, 27, 53, 0.671);
-        }
-    </style>
+    <title>Mide</title>
+    <link rel="stylesheet" href="style-password.css">
 </head>
 <body>
-    <header>
-        <h1>
-            Setecentos e trinta dias!! 
-        </h1>
-        <h2>
-            OMG Quem diria 
-        </h2>
-    </header>
-    <section>
-        <div>
-            Já sabe ne 
-        </div>
-        <div>
-            Clica aqui no meu olho :P
-            <a href="text.html"><img src="images/olho.jpeg" alt="" style="width:648px;height:648px;"></a>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; By seu nenenzin s2</p>
-    </footer>
+    <form class="passform" action="indexmain.html" onsubmit="return passcheck()"> 
+        Seu nome: <input type="password" required id="pass">
+        <input type="submit" value="Enviar">
+      </form>
 </body>
+<script src="js.js"></script>
 </html>
