@@ -1,0 +1,49 @@
+* {
+    justify-content: center;
+}
+
+body {
+    background: rgb(255, 115, 115, 0.685);
+}
+
+header{
+    font-size: 20pt;
+    font-family: 'Love';
+    color: rgba(214, 74, 74, 0.685);
+    text-align: center;
+    padding: 60px;
+}
+
+section { 
+    background: rgba(0, 0, 0, 0.904);
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    height: 830px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+div {
+    font-family: 'Valentines';
+    font-size: 40pt;
+    color: rgba(255, 115, 115, 0.685);
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media(max-width: 800px){
+    body {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 100%;
+    }
+}
